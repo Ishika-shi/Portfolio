@@ -32,25 +32,6 @@ body {
   position: relative;
   min-height: 100vh;
 }
-@media (max-width: 600px) {
-  /* Make resume container full width with padding */
-  #resume .resume-container {
-    padding: 20px 15px;
-    max-width: 100%;
-    box-sizing: border-box;
-  }
-
-  /* Make download button full width and centered */
-  #resume .resume-box .btn {
-    display: block;
-    width: 100%;
-    max-width: none;
-    margin: 0 auto;
-    text-align: center;
-    padding: 14px 0;
-    box-sizing: border-box;
-  }
-}
 
 /* == NAVIGATION BAR == */
 header {
@@ -553,3 +534,20 @@ form button:hover {
   color: #001d96;
   text-decoration: underline;
 }
+@media (max-width: 600px) {
+  /* Container for hero buttons */
+  .hero-buttons {
+    display: flex;
+    flex-direction: column; /* Stack buttons vertically */
+    gap: 15px; /* Add spacing between buttons */
+    max-width: 320px;
+    margin: 0 auto; /* Center container on small screens */
+  }
+
+  /* Make each button expand full width */
+  .hero-buttons .btn {
+    width: 100%;
+    text-align: center;
+  }
+}
+
