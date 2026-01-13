@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ishika | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css" rel="stylesheet" />
+</head>
+
+<body>
+  <!-- Vanta.js Background Container -->
+  <div id="vanta-bg" style="position:fixed; z-index:-1; width:100vw; height:100vh; top:0; left:0;"></div>
+
+  <!-- NAVIGATION BAR -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">Ishika</div>
+      <ul class="nav-links">
+        <button id="theme-toggle" class="theme-toggle" aria-label="Toggle Dark Mode">
+          <i class="ri-moon-line"></i>
+        </button>
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <ul class="social-links">
+        <li><a href="https://github.com/Ishika-shi" target="_blank" aria-label="GitHub"><i
+              class="ri-github-line"></i></a></li>
+        <li><a href="https://www.linkedin.com/in/ishika-goyal-vs329" target="_blank" aria-label="LinkedIn"><i
+              class="ri-linkedin-box-line"></i></a></li>
+        <li><a href="https://x.com/goyalishika329" target="_blank" aria-label="Twitter">
+            <i class="ri-twitter-x-fill"></i>
+          </a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section id="hero">
+    <div class="hero-content">
+      <div class="hero-text">
+        <h1>Hi, I’m <span class="highlight">Ishika</span></h1>
+        <h2><span id="typing-text"></span></h2>
+        <p>I'm a Computer Science and Data Science student who loves analysing data, solving probems and building projects.</p>
+        <div class="hero-buttons">
+          <a href="#projects" class="btn">View Projects</a>
+          <a href="resume.pdf" class="btn" target="_blank">Download Resume</a>
+        </div>
+      </div>
+      <div class="hero-image">
+        <img src="profile.jpg" alt="Ishika's Photo" />
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="about-container">
+      <h2>About Me</h2>
+
+      <p class="about-intro">
+        I’m Ishika, a Computer Science (Data Science) student who enjoys turning raw data into meaningful insights.
+      </p>
+
+      <p>
+        My interests lie in data analysis, machine learning, and building practical applications that combine
+        logic with real-world impact. I enjoy working with Python, exploring datasets, and understanding how
+        algorithms and systems behave under the hood.
+      </p>
+
+      <p>
+        Currently, I’m strengthening my foundation in machine learning, statistics, and data visualization.
+        Alongside this, I regularly practice Data Structures and Algorithms on
+        <a href="https://www.geeksforgeeks.org/profile/goyalishop1a" target="_blank">
+          <strong>GeeksforGeeks</strong>
+        </a>
+        to improve problem-solving skills and coding efficiency.
+
+      </p>
+
+      <div class="about-tags">
+        <span>Data Analysis</span>
+        <span>Machine Learning</span>
+        <span>Python</span>
+        <span>DSA Practice (GFG)</span>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- SKILLS SECTION -->
+  <section id="skills">
+    <div class="skills-container">
+      <h2>Skills & Tools</h2>
+
+      <!-- Programming & Data Skills -->
+      <div class="skill-category">
+        <h3>Programming & Data Skills</h3>
+        <div class="skills-grid">
+          <div class="skill-card">
+            <i class="ri-terminal-box-line"></i>
+            <span>Python</span>
+          </div>
+          <div class="skill-card">
+            <i class="ri-code-s-slash-line"></i>
+            <span>C++</span>
+          </div>
+          <div class="skill-card">
+            <i class="ri-database-2-line"></i>
+            <span>SQL</span>
+          </div>
+          <div class="skill-card">
+            <i class="ri-computer-line"></i>
+            <span>Operating Systems</span>
+          </div>
+          <div class="skill-card">
+            <i class="ri-bar-chart-box-line"></i>
+            <span>Big Data Analytics</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Python Libraries -->
+      <div class="skill-category">
+        <h3>Python Libraries</h3>
+        <div class="skills-grid">
+          <div class="skill-card">
+            <i class="ri-table-line"></i>
+            <span>Pandas</span>
+          </div>
+          <div class="skill-card">
+            <i class="ri-function-line"></i>
+            <span>NumPy</span>
+          </div>
+          <div class="skill-card">
+            <i class="ri-line-chart-line"></i>
+            <span>Matplotlib</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Web Technologies -->
+      <div class="skill-category">
+        <h3>Web Technologies</h3>
+        <div class="skills-grid">
+          <div class="skill-card">
+            <i class="ri-html5-line"></i>
+            <span>HTML</span>
+          </div>
+          <div class="skill-card">
+            <i class="ri-css3-line"></i>
+            <span>CSS</span>
+          </div>
+          <div class="skill-card">
+            <i class="ri-server-line"></i>
+            <span>Flask</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Tools & Platforms -->
+      <div class="skill-category">
+        <h3>Tools & Platforms</h3>
+        <div class="skills-grid">
+          <div class="skill-card">
+            <i class="ri-windows-line"></i>
+            <span>Windows</span>
+          </div>
+          <div class="skill-card">
+            <i class="ri-pie-chart-2-line"></i>
+            <span>Tableau</span>
+          </div>
+          <div class="skill-card">
+            <i class="ri-git-branch-line"></i>
+            <span>Git & GitHub</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2 class="section-title">Projects</h2>
+
+    <div class="projects-grid" id="projects-container">
+      <!-- Projects will be injected by JS -->
+    </div>
+  </section>
+
+
+  <!-- RESUME & CERTIFICATIONS SECTION -->
+  <section id="resume">
+    <div class="resume-container">
+      <h2>Resume & Certifications</h2>
+      <div class="resume-box">
+        <a href="resume.pdf" class="btn" target="_blank">📄 Download Resume</a>
+      </div>
+      <div class="certifications">
+        <h3>Certifications</h3>
+        <ul>
+          <li><i class="ri-check-double-line"></i> AWS Cloud Foundations</li>
+          <li><i class="ri-check-double-line"></i> Smart India Hackathon 2024</li>
+          <li><i class="ri-check-double-line"></i> Smart India Hackathon 2025</li>
+          <li><i class="ri-check-double-line"></i> Introduction to Entrepreneurship with AI</li>
+          <li><i class="ri-check-double-line"></i> Introduction to Automation</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT SECTION -->
+  <section id="contact">
+    <div class="contact-container">
+      <h2>Contact Me</h2>
+      <p>Let's connect! I'm open to internships, collaborations, and freelance projects.</p>
+      <form id="contact-form">
+        <div class="form-group icon-input">
+          <i class="ri-user-line"></i>
+          <input id="name" type="text" name="user_name" placeholder="Your Name" required />
+        </div>
+        <div class="form-group icon-input">
+          <i class="ri-mail-line"></i>
+          <input id="email" type="email" name="user_email" placeholder="Your Email" required />
+        </div>
+        <div class="form-group icon-input">
+          <i class="ri-message-line"></i>
+          <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+        </div>
+        <button type="submit">Send Message</button>
+      </form>
+      <div id="form-status"></div>
+    </div>
+  </section>
+
+  <!-- External scripts -->
+  <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+  <script>
+    (function () {
+      emailjs.init("NVLx9EacaakAMsj_V");
+    })();
+  </script>
+  <!-- FOOTER SECTION -->
+  <footer id="footer">
+    <div class="footer-container">
+      <p>Contact Me:
+        <a href="mailto:goyalishika329@gmail.com" target="_blank" rel="noopener noreferrer">goyalishika329@gmail.com</a>
+        <a href="tel:9896247231"> +91 9896247231</a>
+      </p>
+      <p>&copy; 2026 Ishika. All rights reserved.</p>
+    </div>
+  </footer>
+
+
+  <!-- Vanta.js dependencies -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.net.min.js"></script>
+
+  <!-- Your JavaScript -->
+  <script src="script.js"></script>
+
+</body>
+
+</html>
