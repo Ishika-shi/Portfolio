@@ -105,18 +105,18 @@ document.addEventListener("DOMContentLoaded", function () {
       description:
         "An e-commerce website for home decor products including bedsheets, carpets, cushions, and doormats. Built with a clean UI and brand-focused design.",
       tech: "HTML, CSS, JavaScript",
-      image: "C:\\Users\\goyal\\Downloads\\Portfolio-main\\Portfolio-main\\lushriwaz.jpg",
+      image: "lushriwaz.jpg",
       github: "https://github.com/Ishika-shi/lushriwaaz-flask-ecommerce.git",
       live: "https://lushriwaaz.com"
     },
 
     {
-      title: "Jarvis – Python Voice Assistant",
+      title: "Netflix data Analysis and Visualization",
       description:
-        "A desktop-based voice assistant that performs tasks like opening applications, searching the web, and responding to voice commands.",
-      tech: "Python, Speech Recognition, Text-to-Speech",
-      image: "C:\\Users\\goyal\\Downloads\\Portfolio-main\\Portfolio-main\\jarvis.jpg",
-      github: "https://github.com/your-jarvis-repo",
+        "A data analysis project that explores Netflix's dataset to uncover insights about content trends, user preferences, and viewing patterns.",
+      tech: "Python, Pandas, Matplotlib, Tableau",
+      image: "netflix.png",
+      github: "https://github.com/Ishika-shi/netflix-data-analysis",
       live: ""
     },
 
@@ -124,8 +124,8 @@ document.addEventListener("DOMContentLoaded", function () {
       title: "Software Engineer Salary Prediction (Machine Learning)",
       description:
         "A machine learning project that predicts student performance using supervised learning techniques.",
-      tech: "Python, Pandas, NumPy, Scikit-learn, Matplotlib",
-      image: "C:\\Users\\goyal\\Downloads\\Portfolio-main\\Portfolio-main\\dataset.jpg",
+      tech: "Python, Pandas, NumPy, Matplotlib",
+      image: "software.png",
       github: "https://github.com/Ishika-shi/software-engineer-salary-cleaning.git",
       live: ""
     }
